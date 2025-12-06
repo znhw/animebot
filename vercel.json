@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "cd tweet-a-nime && npm install && npm run build",
+  "outputDirectory": "tweet-a-nime/build",
+  "rewrites": [
+    {
+      "source": "/api/chat",
+      "destination": "/api/chat"
+    }
+  ]
+}
+

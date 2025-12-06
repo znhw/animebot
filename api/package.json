@@ -1,0 +1,11 @@
+{
+  "name": "anime-chatbot-api",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^1.31.0",
+    "axios": "^1.13.2",
+    "fuse.js": "^7.1.0"
+  }
+}
+

@@ -1,0 +1,6 @@
+node_modules
+anime-chatbot-server
+*.log
+.env.local
+.DS_Store
+

@@ -1,0 +1,109 @@
+.wrapper {
+  margin: auto;
+  width: 50%;
+  min-height: 100%;
+  color: #e4eaed;
+}
+
+#italic {
+  font-weight: 200;
+  font-style: italic;
+}
+
+.wrapper h1{
+  color: white;
+  font-size: 23px;
+}
+
+.tweetbox {
+  width: 90%;
+}
+
+.tweetbox form{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color:#1D1B1B;
+  padding: 10px 15px;
+  border-radius: 22px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tweetbox input {
+  background: none;
+  outline: none;
+  border: none;
+  width: 80%;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+}
+
+.tweetbox button{
+  width: 90px;
+  height: 30px;
+  border-radius: 22px;
+  border: none;
+  outline: none;
+  background-color: #BABABA;
+}
+
+.tweetposts {
+  flex-direction: column-reverse;
+  list-style: none;
+}
+
+.reply {
+  margin-bottom: 50px;
+}
+
+.reply-header {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-bottom: 10px;
+  padding-left: 10px; 
+  font-weight: 200;
+  font-style: italic;
+}
+
+.reply-header li {
+  padding-right: 5px;
+}
+
+.reply-message {
+  background-color: #38465c;
+  color: #BABABA;
+  padding: 10px 20px;
+  border-radius: 20px;
+} 
+
+
+.tweetList ul{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 30px;
+}
+
+.tweetList p {
+  background:#38465c;
+  padding: 10px 20px;
+  width: auto;
+  color: #BABABA;
+  border-radius: 20px;
+  /* margin-bottom: 30px; */
+}
+
+@media only screen and (max-width: 1120px) {
+  .wrapper{
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .wrapper{
+    width: 100%;
+    margin: 10px;
+  }
+}
